@@ -62,7 +62,7 @@ export default function Modal({
     const fields = getFieldsfromLink();
     console.log(fields);
     if (fields) {
-      // fetchRepoStructure(fields);
+      fetchRepoStructure(fields);
       closeModal();
     }
   };
